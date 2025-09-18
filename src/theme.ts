@@ -1,0 +1,1 @@
+export const COLORS = { navy:'#0b1f3a', bg:'#F7F8FA', card:'#FFFFFF', text:'#0f172a', sub:'#6b7280', border:'#e5e7eb' };

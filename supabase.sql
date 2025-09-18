@@ -1,0 +1,2 @@
+-- Use the SQL we discussed earlier to create tables & policies.
+-- players, venues, events, social_items, scores (+ Realtime on scores), RLS.
