@@ -2,38 +2,27 @@
   "expo": {
     "name": "Kevin Durkan Trophy",
     "slug": "kdt-expo-supabase",
-    "version": "1.0.2",
     "scheme": "kdt",
-    "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.kdurkan.kdt"
     },
     "android": {
+      "package": "com.kdurkan.kdt",
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
       }
     },
-    "web": {
-      "bundler": "metro",
-      "favicon": "./assets/icon.png"
-    },
+
     "extra": {
-      "eas": {
-        "projectId": "6e99c8c2-9d72-47e7-a82b-4cc1eaa48380"
-      }
+      "eas": { "projectId": "6e99c8c2-9d72-47e7-a82b-4cc1eaa48380" }
     }
   }
 }
