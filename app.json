@@ -8,11 +8,17 @@
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
-    },
-
+    {
+  "expo": {
     "ios": {
-      "bundleIdentifier": "com.kdurkan.kdt"
-    },
+      "bundleIdentifier": "com.kdurkan.kdt",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    }
+  }
+}
+
     "android": {
       "package": "com.kdurkan.kdt",
       "adaptiveIcon": {
